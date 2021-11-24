@@ -26,6 +26,7 @@ export default function Home() {
     <div>
       <Head>
         <title>KKAKKA | 까까는 고양이</title>
+        <meta name="description" content="귀여운 까까"></meta>
       </Head>
       {isLoading && (
         <div style={{ padding: "300px 0" }}>

@@ -22,7 +22,6 @@ export default function Item({ item }) {
       <Divider />
       <Header as="h3">Description</Header>
       <p>{description}</p>
-      <Divider />
     </>
   );
 }

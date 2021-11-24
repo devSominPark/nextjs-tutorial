@@ -1,3 +1,10 @@
+import { Divider } from "semantic-ui-react";
+
 export default function Footer() {
-  return <div>Copyright by devSominPark</div>;
+  return (
+    <>
+      <Divider />
+      <div>Copyright by devSominPark</div>
+    </>
+  );
 }
