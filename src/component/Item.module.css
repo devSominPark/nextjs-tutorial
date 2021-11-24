@@ -1,0 +1,36 @@
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.img_item {
+  display: block;
+  margin: 20px auto;
+}
+
+.info_item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100% 0 40px;
+}
+
+.tit_item {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 160px;
+  margin: 10px auto;
+}
+
+.txt_info {
+  display: block;
+  margin: 15px 0 15px 0;
+  color: #999;
+}
+
+.num_price {
+  font-size: 24px;
+  color: #00bcd4;
+  font-weight: bold;
+}
