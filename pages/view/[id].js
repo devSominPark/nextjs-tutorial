@@ -5,7 +5,7 @@ import Item from "../../src/component/Item";
 // import { Loader } from "semantic-ui-react";
 import Head from "next/head";
 
-const Post = ({ item }) => {
+const Post = ({ item, name }) => {
   // const router = useRouter();
   // const { id } = router.query;
   // const [item, setItem] = useState([]);
@@ -60,6 +60,9 @@ export async function getServerSideProps(context) {
   return {
     props: {
       item: data,
+      name: process.env.name,
+      // 개발 환경에서는 DEVELOPMENT
+      // 프로덕션 환경에서는 PRODUCTION
     },
   };
 }
